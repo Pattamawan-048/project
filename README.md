@@ -25,6 +25,7 @@
  - LCD Display IIC Interfacec
  - Active Buzzer
  ### โครงสร้างพื้นฐาน
+ ![Copy of Basic Flowchart Example](https://user-images.githubusercontent.com/61343345/84484292-c82a3c00-acc4-11ea-9527-71d9fc1f3973.png)
  ### ระบบการทำงาน
  ![pat](https://user-images.githubusercontent.com/61343345/84481926-0cb3d880-acc1-11ea-8c10-5eabd08321bf.jpg)
 
