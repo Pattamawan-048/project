@@ -26,4 +26,6 @@
  - Active Buzzer
  ### โครงสร้างพื้นฐาน
  ### ระบบการทำงาน
+ ![pat](https://user-images.githubusercontent.com/61343345/84481926-0cb3d880-acc1-11ea-8c10-5eabd08321bf.jpg)
+
   
