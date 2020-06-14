@@ -20,4 +20,3 @@ void loop() {
   else digitalWrite (buzzer,LOW); //ถ้าไม่มีวัตถุเข้าใกล้จะไม่มีเสียง
 }
 
-

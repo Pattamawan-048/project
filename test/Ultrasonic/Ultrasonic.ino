@@ -1,5 +1,6 @@
 const int trigPin = 12;
 const int echoPin = 13;
+
 // กำหนดตัวแปรและกำหนดขา
 long duration; //เวลา
 int distance; //ระยะทาง
@@ -21,4 +22,5 @@ distance= (duration*0.034)/2; // คำนวณระยะทางไปแ�
 Serial.print("Distance: ");
 Serial.println(distance);
 delay(200);
+
 }
