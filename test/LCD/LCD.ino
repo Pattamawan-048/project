@@ -28,7 +28,7 @@ void loop() {
   } else {
     digitalWrite(buzzer, LOW);
   }*/
-  IR();
+  IR(); โค้ดจอ
   lcd.setCursor(0, 0); // Sets the location at which subsequent text written to
                        // the LCD will be displayed
   lcd.print("Distance"); // Prints string "Distance" on the LCD
