@@ -1,12 +1,11 @@
 int buzzer = 8;
 
-   void setup() {
+void setup() {
      pinMode(buzzer,OUTPUT);
      }
    void loop() {
-     digitalWrite (buzzer,HIGH); //มีเสียง
-     delay(300);
-     digitalWrite (buzzer,LOW); //ถ้าไม่มีวัตถุเข้าใกล้จะไม่มีเสียง
-   }
-
- 
+     tone(buzzer, 300,10); 
+    delay(100); 
+     tone(buzzer,300,10); 
+    delay(100); 
+}

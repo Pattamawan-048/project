@@ -11,10 +11,7 @@ Serial.begin(9600); // แสดงผล
 }
 void loop() {
 digitalWrite(trigPin, LOW); //ยังไม่เริ่มการทำงาน
-delayMicroseconds(2); //เป็นเวลา2ไมโครเซก
-
-digitalWrite(trigPin, HIGH); 
-delayMicroseconds(10); 
+delayMicroseconds(2); //เป็delayMicroseconds(10); 
 digitalWrite(trigPin, LOW);
 
 duration = pulseIn(echoPin, HIGH); // ยิ่งไปที่echoรับได้อ่านได้เวลาเท่าไหร่และนำไปเก็บที่ระยะทาง
