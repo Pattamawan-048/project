@@ -8,6 +8,7 @@ int detect = 5;
 int buzzer = 8;
 int val = 0;
 int sensorValue; //ค่าที่จะนำไปแสดงผล
+
 void setup() {
   lcd.init();
   Serial.begin(9600);
@@ -120,3 +121,5 @@ delay(30);
     }
   }
 }
+
+  
